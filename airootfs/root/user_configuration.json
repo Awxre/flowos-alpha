@@ -1,0 +1,105 @@
+{
+    "app_config": {
+        "audio_config": {
+            "audio": "pipewire"
+        },
+        "bluetooth_config": {
+            "enabled": true
+        },
+        "firewall_config": {
+            "firewall": "ufw"
+        },
+        "fonts_config": {
+            "fonts": [
+                "noto-fonts",
+                "noto-fonts-emoji",
+                "ttf-liberation",
+                "ttf-dejavu"
+            ]
+        },
+        "power_management_config": {
+            "power_management": "power-profiles-daemon"
+        },
+        "print_service_config": {
+            "enabled": true
+        }
+    },
+    "archinstall-language": "English",
+    "auth_config": {},
+    "bootloader_config": {
+        "bootloader": "Systemd-boot",
+        "removable": false,
+        "uki": true
+	},
+
+    "hostname": "flowos",
+    "kernels": [
+        "linux",
+        "linux-zen"
+    ],
+    "locale_config": {
+        "kb_layout": "us",
+        "sys_enc": "UTF-8",
+        "sys_lang": "en_US.UTF-8"
+    },
+    "mirror_config": {
+        "custom_repositories": [],
+        "custom_servers": [],
+        "mirror_regions": {},
+        "optional_repositories": []
+    },
+    "network_config": {
+        "type": "nm"
+    },
+    "ntp": true,
+    "packages": [
+        "apostrophe",
+        "flatpak",
+        "gnome-extra",
+        "gnome-shell-extension-appindicator",
+        "gnome-shell-extension-arc-menu",
+        "gnome-shell-extension-caffeine",
+        "gnome-shell-extension-dash-to-panel",
+        "gnome-shell-extension-desktop-icons-ng",
+        "gnome-shell-extensions",
+        "gnome-software",
+        "gnome-tweaks",
+        "libreoffice-fresh",
+        "mission-center",
+        "timeshift",
+        "firefox",
+        "firefox-adblock-plus",
+        "chromium",
+        "zed",
+        "extension-manager",
+        "7zip",
+        "zip",
+        "tar",
+        "git"
+    ],
+    "pacman_config": {
+        "color": true,
+        "parallel_downloads": 5
+    },
+    "profile_config": {
+        "gfx_driver": "All open-source",
+        "greeter": "gdm",
+        "profile": {
+            "custom_settings": {
+                "GNOME": {}
+            },
+            "details": [
+                "GNOME"
+            ],
+            "main": "Desktop"
+        }
+    },
+    "script": post_install,
+    "services": [],
+    "swap": {
+        "algorithm": "zstd",
+        "enabled": true
+    },
+    "timezone": "UTC",
+    "version": "4.3"
+}

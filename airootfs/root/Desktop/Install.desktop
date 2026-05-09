@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Flow Installer
+Comment=Start FlowOS installation process
+Path=/
+Exec=archinstall --config /root/user_configuration.json
+Terminal=true
