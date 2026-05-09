@@ -94,7 +94,7 @@
             "main": "Desktop"
         }
     },
-    "script": post_install,
+    "script": "post_install.py",
     "services": [],
     "swap": {
         "algorithm": "zstd",
