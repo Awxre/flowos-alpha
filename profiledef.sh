@@ -23,5 +23,5 @@ file_permissions=(
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
   ["/root/Desktop/Install.desktop"]="0:0:755"
-  ["/etc/archinstall/scripts/post_install.py"]="0:0:755"
+  ["/usr/lib/python3.14/site-packages/archinstall/scripts/post_install.py"]="0:0:755"
 )
